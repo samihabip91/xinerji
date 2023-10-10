@@ -1,0 +1,9 @@
+@import '../../assets/css/theme.scss';
+
+.product-detail {
+    @include border;
+    
+    padding: 8px;
+    margin: 12px;
+    width: fit-content;
+}

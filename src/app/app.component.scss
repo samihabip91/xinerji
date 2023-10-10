@@ -1,0 +1,24 @@
+
+
+@import '../assets/css/theme.scss';
+
+:host {
+    display: block;
+    height: 100%;
+}
+
+.dropdown {
+    @include border;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    width: fit-content; 
+    height: 130px;
+    overflow-y: auto;
+
+    label {
+        padding: 4px 8px;
+        cursor: pointer;
+    }   
+}
